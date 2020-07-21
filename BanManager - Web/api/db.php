@@ -33,6 +33,8 @@ function ban($uuid, $by=NULL, $reason=NULL) {
     $query = "INSERT INTO `bans` (`uuid`,`by_uuid`, `reason`, `date`) VALUES ('$uuid', '$by', '$reason', '$date')";
 
     $result = $conn->query($query);
+    
+    //TODO: Add JSON output.
 }
 
 function get_all_bans() {
