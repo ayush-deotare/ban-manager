@@ -1,0 +1,13 @@
+name: BanManager
+version: 1.0
+main: me.ayush_03.banmanager.Main
+description: Manage the bans on your server!
+
+commands:
+      ban:
+        usage: /ban <player> <reason>
+        description: Bans the specified player.
+        
+      unban:
+        usage: /unban <player>
+        description: Unbans the specified player.
